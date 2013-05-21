@@ -7,7 +7,7 @@ import android.os.Bundle;
 
 public class VideoPlayerActivity extends Activity{
 	@Override 
-	public void onCreate(Bundle savedInstanceState){
+	protected void onCreate(Bundle savedInstanceState){
 		super.onCreate(savedInstanceState);
 	}
 }
