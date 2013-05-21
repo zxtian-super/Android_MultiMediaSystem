@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<LinearLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    
+	<TextView 
+	    android:id="@+id/text"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:text="What kind of animation do you want?"
+	    android:textColor="#FF69B4"/>
+
+	<Button
+	    android:id="@+id/alpha"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_marginLeft="30dp"
+	    android:layout_marginTop="40dp"
+	    android:text="Alpha" 
+	    android:textColor="#DA70D6"/>
+	
+	<Button 
+	    android:id="@+id/scale"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_marginLeft="45dp"
+	    android:layout_marginTop="55dp"
+	    android:text="Scale"
+	    android:textColor="#F0F8FF"/>
+	
+	<Button 
+	    android:id="@+id/translate"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_marginLeft="60dp"
+	    android:layout_marginTop="70dp"
+	    android:text="Translate"
+	    android:textColor="#00FF00"/>
+
+	<Button
+	    android:id="@+id/rotate"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_marginLeft="75dp"
+	    android:layout_marginTop="85dp"
+	    android:text="Rotate"
+	    android:textColor="#F0E68C" />
+    
+</LinearLayout>
