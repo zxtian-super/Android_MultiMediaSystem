@@ -3,6 +3,7 @@ package com.macya.multimediasystem;
 import com.macya.multimedia.animation.AnimationActivity;
 import com.macya.multimedia.draw.*;
 import com.macya.multimedia.music.MusicPlayerActivity;
+import com.macya.multimedia.vedio.VideoPlayerActivity;
 
 import android.os.Bundle;
 import android.app.Activity;
@@ -101,7 +102,9 @@ public class MultiMediaSystem extends Activity {
 		@Override
 		public void onClick(View arg0) {
 			// TODO Auto-generated method stub
-			
+			Intent intent = new Intent();
+			intent.setClass(MultiMediaSystem.this, VideoPlayerActivity.class);
+			startActivity(intent);
 		}
 		
 	}
